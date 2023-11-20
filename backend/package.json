@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "yarn dev:watch",
     "start": "ts-node index.ts",
-    "dev:watch": "ts-node-dev --poll index.ts"
+    "dev:watch": "ts-node-dev --respawn index.ts"
   },
   "dependencies": {
     "node-fetch": "^2.6.13",
